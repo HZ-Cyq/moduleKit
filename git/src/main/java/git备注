@@ -17,5 +17,3 @@ a/**/b:         忽略a/b, a/x/b, a/x/y/b等
 config.js:      忽略当前路径的 config.js 文件
 
 /mtk/           忽略整个文件夹
-*.zip           忽略所有.zip文件
-/mtk/do.c       忽略某个具体文件
