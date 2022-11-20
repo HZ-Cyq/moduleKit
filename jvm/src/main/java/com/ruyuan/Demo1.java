@@ -15,5 +15,10 @@ public class Demo1 {
         array1 = new byte[M];
         array1 = null;
         byte[] array2 = new byte[2 * M];
+        // 1、放弃当前栈帧
+        // 2、执行到光标
+        // 3、指定线程顺序
+        // 4、修改内存的值
     }
+
 }
