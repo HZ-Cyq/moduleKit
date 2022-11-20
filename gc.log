@@ -1,6 +1,15 @@
 OpenJDK 64-Bit Server VM (25.352-b08) for bsd-amd64 JRE (1.8.0_352-b08), built on Oct 14 2022 03:50:32 by "ec2-user" with gcc Apple LLVM 13.0.0 (clang-1300.0.29.30)
-Memory: 4k page, physical 16777216k(3831796k free)
+Memory: 4k page, physical 16777216k(669780k free)
 
 /proc/meminfo:
 
-CommandLine flags: -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+CommandLine flags: -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:MaxNewSize=5242880 -XX:NewSize=5242880 -XX:OldPLABSize=16 -XX:PretenureSizeThreshold=10485760 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=8 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+0.245: [GC (Allocation Failure) 0.245: [ParNew: 3879K->494K(4608K), 0.0017298 secs] 3879K->1520K(9728K), 0.0019765 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap
+ par new generation   total 4608K, used 3765K [0x00000007bf600000, 0x00000007bfb00000, 0x00000007bfb00000)
+  eden space 4096K,  79% used [0x00000007bf600000, 0x00000007bf931aa0, 0x00000007bfa00000)
+  from space 512K,  96% used [0x00000007bfa80000, 0x00000007bfafbb40, 0x00000007bfb00000)
+  to   space 512K,   0% used [0x00000007bfa00000, 0x00000007bfa00000, 0x00000007bfa80000)
+ concurrent mark-sweep generation total 5120K, used 1026K [0x00000007bfb00000, 0x00000007c0000000, 0x00000007c0000000)
+ Metaspace       used 3350K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 363K, capacity 388K, committed 512K, reserved 1048576K

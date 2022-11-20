@@ -1,0 +1,2 @@
+import bsh.PlayerManager;
+        PlayerManager.getInstance().add(1, "name1");
