@@ -2,6 +2,8 @@ package com.cyq.idea.debug;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 
 /**
  * 参考链接：https://www.bilibili.com/video/BV195411h7nE/
@@ -26,6 +28,7 @@ public class DebugTest {
                 // 同上
                 System.out.println("线程3启动了"),
                 "线程3").start();
+        ArrayList arrayList = new ArrayList();
     }
 
     @Test
