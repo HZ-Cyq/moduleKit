@@ -3,4 +3,4 @@
  * 1、
  * 2、
  */
-package wait_notify.distributed_filesystem;
+package wait_notify;

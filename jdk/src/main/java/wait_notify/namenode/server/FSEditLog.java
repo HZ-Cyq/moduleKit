@@ -1,4 +1,4 @@
-package wait_notify.distributed_filesystem.namenode.server;
+package wait_notify.namenode.server;
 
 /**
  * 负责管理

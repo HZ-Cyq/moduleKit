@@ -1,4 +1,4 @@
-package wait_notify.distributed_filesystem;
+package wait_notify;
 import java.util.LinkedList;
 
 /**
@@ -7,7 +7,6 @@ import java.util.LinkedList;
 public class MyQueue {
     private static int MAX_SIZE = 1;
     private LinkedList<String> queue = new LinkedList<>();
-
     public synchronized void offer(String val) {
         while (queue.size() >= MAX_SIZE) {
             try {
