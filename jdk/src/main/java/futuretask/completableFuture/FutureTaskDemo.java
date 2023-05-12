@@ -16,5 +16,6 @@ public class FutureTaskDemo {
         new Thread(futureTask).start();
         // 在调用get的时候，主线程会阻塞。
         System.out.println(futureTask.get());
+        System.out.println("hello world");
     }
 }

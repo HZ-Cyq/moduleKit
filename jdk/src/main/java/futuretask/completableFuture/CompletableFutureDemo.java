@@ -1,9 +1,6 @@
 package futuretask.completableFuture;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 
 public class CompletableFutureDemo {
@@ -13,7 +10,5 @@ public class CompletableFutureDemo {
             return "hello world";
         });
         new Thread(futureTask).start();
-        CompletableFuture<String> completableFuture = CompletableFuture.completedFuture(futureTask.get());
-
     }
 }
