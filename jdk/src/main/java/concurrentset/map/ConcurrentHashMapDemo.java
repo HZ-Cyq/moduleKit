@@ -1,4 +1,4 @@
-package concurrentset;
+package concurrentset.map;
 
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;

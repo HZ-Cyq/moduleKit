@@ -1,4 +1,4 @@
-package concurrentset;
+package concurrentset.list;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

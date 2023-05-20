@@ -1,4 +1,4 @@
-package concurrentset;
+package concurrentset.queue;
 
 import java.util.concurrent.SynchronousQueue;
 
